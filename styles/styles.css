@@ -28,7 +28,9 @@ li a{
 li a:hover{
     background-color: gray;
 }
-
+.contenido{
+    
+}
 .active{
     border: 2px solid darkblue;
 }
