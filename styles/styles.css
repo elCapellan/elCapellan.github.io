@@ -1,0 +1,34 @@
+body{
+    background-color: wheat;
+    margin: 0px;
+}
+
+/*menu*/
+.menu{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+
+}
+.menu li{
+    float: left;
+}
+li a{
+    border: 1px solid black;
+    padding: 15px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+/*hover*/
+li a:hover{
+    background-color: gray;
+}
+
+.active{
+    border: 2px solid darkblue;
+}
